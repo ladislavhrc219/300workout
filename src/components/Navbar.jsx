@@ -9,7 +9,7 @@ const Navbar = (props) => {
     <>
      <hr />
     <div >
-        <h1 className="headline"> 300 WORKOUT </h1>
+        <h1 className="headline"> THE 300 WORKOUT </h1>
      
       {/* <hr /> */}
       
