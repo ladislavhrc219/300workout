@@ -1,0 +1,11 @@
+.workout-list {
+    /* background-color: navy; */
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    justify-content: space-around;
+    margin-top: 25px;
+    width: 100%;
+    /* word-spacing: 20px; */
+}
