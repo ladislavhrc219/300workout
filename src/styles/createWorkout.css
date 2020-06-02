@@ -1,12 +1,10 @@
 .createWorkout-inputs {
-    
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
 }
 
 .createWorkout-fields{
-    color: #a7fa0d;
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
@@ -20,6 +18,8 @@
     margin-right: 20px;
     width: 155px;
     font-size: 20px;
+    /* padding: 20px; */
+    /* margin-top: 20px; */
 }
 
 .createWorkout-inputs input {

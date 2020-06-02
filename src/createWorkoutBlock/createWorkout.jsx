@@ -35,8 +35,9 @@ const createWorkout = ({onCreateWorkout}) => {
            <input type="number" placeholder="Sets" name="sets"/> 
            <input type="number" placeholder="Reps" name="reps"/> 
             <input type="date" name="date"/>
-            <button className="saveitButton"> Add to workout </button>
+            <button className="saveitButton"> Add to 300 </button>
             </form>
+            
 
 
             

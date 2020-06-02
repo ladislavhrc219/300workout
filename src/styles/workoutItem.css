@@ -2,18 +2,18 @@ li {
     width: 100%;
 }
 .workout-item {
-    background-color: #02345c;
+    background-color: red;
     display: flex;
     padding: 25px;
     margin-top: 10px;
-    color:rgb(0, 255, 234);
+    color:yellow;
     justify-content: space-between;
     /* padding-left: 20px; */
     /* border-top-right-radius: 10%; */
     
 }
 .workout-item__reps {
-    color:rgb(0, 255, 234);
+    color:yellow;
     /* padding-left: 20px;  */
 }
 .workout-item__date {

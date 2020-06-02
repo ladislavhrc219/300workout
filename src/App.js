@@ -13,7 +13,7 @@ import {ID} from './helpers/id.js';
 import { useSelector, useDispatch } from 'react-redux';
 import {increment, decrement, reset} from './redux/actions/counter.actions'
 // import {isLoggedIn} from './redux/actions/login.action';
-
+// import { Header } from 'semantic-ui-react'
 
 
 const App = () => {
@@ -58,11 +58,14 @@ const App = () => {
             />
               ))}
           </WorkoutList>
-          <h2>Number of reps to left to smash: {mainCounter} </h2> 
+         
+          <h2 className="redRedux">Number of reps to left to smash: {mainCounter} </h2> 
           <button className="ui inverted secondary button" onClick={() => dispatch(increment())} > +</button>
           <button className="ui inverted secondary button" onClick={()=> dispatch(decrement())} >-</button>
           {/* <br></br>  */}
           <button className="ui inverted red button" onClick={()=> dispatch(reset())}> {}Reset</button>
+
+          <h2 className="redRedux">Do not forget to subscribe and hit the like button! Cheers </h2>
 
           {/* <button className="ui primary basic button"> -</button> */}
           {/* <button> - </button> */}
