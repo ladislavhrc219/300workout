@@ -8,9 +8,7 @@ li {
     margin-top: 10px;
     color:yellow;
     justify-content: space-between;
-    /* padding-left: 20px; */
-    /* border-top-right-radius: 10%; */
-    
+
 }
 .workout-item__reps {
     color:yellow;

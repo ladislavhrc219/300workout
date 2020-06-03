@@ -18,18 +18,13 @@
     margin-right: 20px;
     width: 155px;
     font-size: 20px;
-    /* padding: 20px; */
-    /* margin-top: 20px; */
 }
 
 .createWorkout-inputs input {
     background-color: red;
-    /* border: 20; */
     border-color: hsl(0, 100%, 50%);
     font-size: 20px;
     padding: 15px;
-    /* justify-content: space-between; */
-    /* color: #ffffff; */
     width: 20%;
     margin-left: 20px;
 }

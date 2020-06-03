@@ -43,10 +43,10 @@ const App = () => {
   return (
     
       <div className="App">
-       
-        <Navbar />
         
-          <Header />
+        <Navbar />
+        <Header />
+         
           <CreateWorkout onCreateWorkout={createSession} />
           <WorkoutList>
             {exercises.map(({id, name, sets, reps, date}) => (
