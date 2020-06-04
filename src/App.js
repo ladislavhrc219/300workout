@@ -9,7 +9,7 @@ import CreateWorkout from './createWorkoutBlock/createWorkout.jsx';
 // import createWorkout from './createWorkoutBlock/createWorkout.jsx';
 import {ID} from './helpers/id.js';
 // import {Button} from 'reactstrap'
-
+import AddComments from './components/AddComments.jsx';
 import { useSelector, useDispatch } from 'react-redux';
 import {increment, decrement, reset} from './redux/actions/counter.actions'
 // import {isLoggedIn} from './redux/actions/login.action';
@@ -60,12 +60,14 @@ const App = () => {
           </WorkoutList>
          
           <h2 className="redRedux">Number of reps to left to smash: {mainCounter} </h2> 
-          <button className="ui inverted secondary button" onClick={() => dispatch(increment())} > +</button>
-          <button className="ui inverted secondary button" onClick={()=> dispatch(decrement())} >-</button>
+          <button className="ui inverted red button" onClick={() => dispatch(increment())} > +</button>
+          <button className="ui inverted red button" onClick={()=> dispatch(decrement())} >-</button>
           {/* <br></br>  */}
           <button className="ui inverted red button" onClick={()=> dispatch(reset())}> {}Reset</button>
 
           <h2 className="redRedux">Do not forget to subscribe and hit the like button! Cheers </h2>
+
+          <AddComments/>
 
           {/* <button className="ui primary basic button"> -</button> */}
           {/* <button> - </button> */}
