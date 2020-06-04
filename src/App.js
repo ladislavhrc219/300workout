@@ -65,9 +65,11 @@ const App = () => {
           {/* <br></br>  */}
           <button className="ui inverted red button" onClick={()=> dispatch(reset())}> {}Reset</button>
 
+          <AddComments/>
+
           <h2 className="redRedux">Do not forget to subscribe and hit the like button! Cheers </h2>
 
-          <AddComments/>
+          
 
           {/* <button className="ui primary basic button"> -</button> */}
           {/* <button> - </button> */}

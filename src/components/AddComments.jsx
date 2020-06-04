@@ -21,6 +21,7 @@ export default () => {
 
   return (
     <div className="comments">
+        <p className="P100D">  ● Comments of the current workout challenge ●  </p>
       <Comments
         onSubmit={text => setTodos([{ text, complete: false }, ...comments])}
       />
